@@ -413,7 +413,7 @@ def map_coordinate_groups(
     sites = get_data()["sites"]
 
     override_path = (
-        Path(__file__).resolve().parents[2]
+        Path(__file__).resolve().parents[1]
         / "reports/map_quality/phase10_andhra_pradesh_map_overrides.csv"
     )
 

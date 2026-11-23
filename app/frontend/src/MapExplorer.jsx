@@ -14,7 +14,9 @@ import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 
-const API = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+const API = import.meta.env.VITE_API_BASE_URL ?? (
+  import.meta.env.DEV ? "http://127.0.0.1:8000" : ""
+);
 
 const number = (value) =>
   Number(value || 0).toLocaleString("en-IN");
