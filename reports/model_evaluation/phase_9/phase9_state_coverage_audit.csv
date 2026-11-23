@@ -1,31 +1,3 @@
-_state_feature,Test_records,Meets_minimum
-madhya pradesh,3411,True
-maharashtra,3059,True
-rajasthan,2081,True
-chhattisgarh,1812,True
-gujarat,1732,True
-odisha,1435,True
-andhra pradesh,1405,True
-tamil nadu,1366,True
-uttar pradesh,1214,True
-haryana,1120,True
-west bengal,1006,True
-karnataka,949,True
-kerala,936,True
-punjab,841,True
-telangana,801,True
-jammu & kashmir,312,True
-delhi,199,True
-jharkhand,185,True
-uttarakhand,171,True
-bihar,161,True
-himachal pradesh,134,True
-assam,113,True
-andaman and nicobar islands,112,True
-goa,68,True
-tripura,40,False
-meghalaya,29,False
-puducherry,9,False
-arunachal pradesh,3,False
-dadra and nagar haveli,3,False
-nagaland,1,False
+version https://git-lfs.github.com/spec/v1
+oid sha256:614851843bc40de7b0de039b54afdc12f19224d23f3bcc000fb49a27f0b3b564
+size 692

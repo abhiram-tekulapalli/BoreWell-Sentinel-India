@@ -3,9 +3,9 @@ import React, { useCallback, useEffect, useState } from "react";
 import {
   Activity, AlertTriangle, ArrowRight, CheckCircle2,
   ChevronLeft, ChevronRight, Clock3, Database,
-  Droplets, FlaskConical, Gauge, Layers3, MapPin,
-  RefreshCw, Search, ShieldAlert, SlidersHorizontal,
-  Waves, X
+  Droplets, FlaskConical, Gauge, Layers3,
+  MapPin, RefreshCw, Search, ShieldAlert, SlidersHorizontal,
+  User, Waves, X
 } from "lucide-react";
 
 import {
@@ -405,6 +405,142 @@ function SiteExplorer({ sites, total, loading, filters, setFilters, onSearch, on
   );
 }
 
+function Credits() {
+  const links = [
+    {
+      label: "GitHub",
+      href: "https://github.com/abhiram-tekulapalli",
+      icon: Waves,
+      description: "Source code, issues & contributions"
+    },
+    {
+      label: "LinkedIn",
+      href: "https://linkedin.com/in/abhiram-tekulapalli",
+      icon: Layers3,
+      description: "Professional profile & contact"
+    },
+    {
+      label: "Email",
+      href: "mailto:abhiram.tekulapalli@gmail.com",
+      icon: Activity,
+      description: "Direct contact for collaborations"
+    }
+  ];
+
+  return (
+    <div className="page-content">
+      <SectionTitle
+        eyebrow="PROJECT CREDITS"
+        title="Built by"
+        description="BoreWell Sentinel India is a research prototype for groundwater quality analytics."
+      />
+
+      <div className="credits-grid">
+        <div className="credits-card">
+          <div className="credits-avatar">
+            <Droplets size={28} strokeWidth={1.5} />
+          </div>
+          <h3>Abhiram Tekulapalli</h3>
+          <p className="credits-role">Full-stack Developer & ML Engineer</p>
+          <p className="credits-bio">
+            Designed and implemented the complete pipeline: data ingestion from CGWB,
+            multi-contaminant ML modeling, temporal trend analysis, testing prioritization
+            framework, and this interactive web application.
+          </p>
+          <div className="credits-links">
+            {links.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="credits-link"
+              >
+                <link.icon size={16} />
+                <span>{link.label}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div className="credits-card credits-tech">
+          <h3>Technology Stack</h3>
+          <div className="tech-grid">
+            <div className="tech-item">
+              <span className="tech-category">Backend</span>
+              <span className="tech-value">FastAPI · Uvicorn · Pandas · NumPy · Scikit-learn · Joblib</span>
+            </div>
+            <div className="tech-item">
+              <span className="tech-category">Frontend</span>
+              <span className="tech-value">React 18 · Vite · Leaflet · React-Leaflet · Recharts · Lucide React</span>
+            </div>
+            <div className="tech-item">
+              <span className="tech-category">Data & ML</span>
+              <span className="tech-value">Jupyter · Matplotlib · Seaborn · Shapely · SciPy · Scikit-learn</span>
+            </div>
+            <div className="tech-item">
+              <span className="tech-category">Deployment</span>
+              <span className="tech-value">Docker · Nginx · GitHub Actions · Git LFS</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="credits-card credits-data">
+          <h3>Data Sources</h3>
+          <div className="data-sources">
+            <div className="data-source">
+              <Database size={18} />
+              <div>
+                <strong>Central Ground Water Board (CGWB)</strong>
+                <p>Ground Water Quality Chemical Parameters Manual (1961–2025)</p>
+              </div>
+            </div>
+            <div className="data-source">
+              <MapPin size={18} />
+              <div>
+                <strong>OpenStreetMap</strong>
+                <p>Map tiles & geographic boundaries</p>
+              </div>
+            </div>
+            <div className="data-source">
+              <ShieldAlert size={18} />
+              <div>
+                <strong>BIS / WHO Standards</strong>
+                <p>Drinking water quality thresholds for exceedance detection</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="credits-card credits-disclaimer">
+          <AlertTriangle size={20} />
+          <div>
+            <h3>Important Disclaimer</h3>
+            <p>
+              <strong>BoreWell Sentinel India is a research prototype.</strong> All predictions,
+              priority scores, and alert flags are statistical estimates based on historical
+              monitoring data. They are <strong>not</strong> laboratory measurements, regulatory
+              assessments, or certifications of groundwater safety.
+            </p>
+            <p>
+              Always verify with accredited laboratory testing before making decisions
+              affecting public health or water resource management.
+            </p>
+          </div>
+        </div>
+
+        <div className="credits-card credits-license">
+          <h3>License & Attribution</h3>
+          <p>This project is released under the <strong>MIT License</strong>.</p>
+          <p className="credits-copyright">
+            © 2024 Abhiram Tekulapalli. Built with curiosity for India's groundwater future.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function TraceAlerts({ alerts, total, loading }) {
   return (
     <div className="page-content">
@@ -589,7 +725,8 @@ export default function App() {
     { id: "overview", label: "Overview", icon: Gauge },
     { id: "map", label: "Groundwater map", icon: Layers3 },
     { id: "sites", label: "Site explorer", icon: MapPin },
-    { id: "alerts", label: "Trace alerts", icon: ShieldAlert }
+    { id: "alerts", label: "Trace alerts", icon: ShieldAlert },
+    { id: "credits", label: "Credits", icon: User }
   ];
 
   return (
@@ -634,7 +771,7 @@ export default function App() {
           <div>
             <div className="breadcrumb">BOREWELL SENTINEL <span>/</span> {view.toUpperCase()}</div>
             <div className="topbar-title">
-              {view === "overview" ? "Groundwater overview" : view === "map" ? "India groundwater map" : view === "sites" ? "Location intelligence" : "Trace-element review"}
+              {view === "overview" ? "Groundwater overview" : view === "map" ? "India groundwater map" : view === "sites" ? "Location intelligence" : view === "credits" ? "Project credits & acknowledgments" : "Trace-element review"}
             </div>
           </div>
           <div className="topbar-actions">
@@ -697,6 +834,10 @@ export default function App() {
                 total={traceTotal}
                 loading={loading}
               />
+            )}
+
+            {view === "credits" && (
+              <Credits />
             )}
           </>
         )}

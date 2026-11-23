@@ -1,6 +1,3 @@
-﻿X_Parameter,Y_Parameter,Paired_Observations,Spearman_Correlation
-Electric Conductivity (μS/cm),Total Dissolved Solids (mg/L),30142,0.5542149950501027
-Total Hardness (mgCaCO3/L),Calcium (mg/L),141885,0.7952822769667439
-Total Hardness (mgCaCO3/L),Magnesium (mg/L),142470,0.8712137127077738
-Calcium (mg/L),Magnesium (mg/L),149586,0.4816243746600116
-Bicarbonate (mg/L),Total Alkalinity (mg/L as CaCO3),79899,0.9031341812322342
+version https://git-lfs.github.com/spec/v1
+oid sha256:c976e73923d11cc6b48e46cf1b22057af09cfb8760fd53ee3c4e63315b73f7df
+size 433

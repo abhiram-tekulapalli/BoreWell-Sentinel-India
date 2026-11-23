@@ -1,28 +1,3 @@
-﻿Parameter,Original_Numeric_Values,Basic_Valid_Values,Rejected_By_Basic_Screen,Zero_Values,Availability_Percentage,Support_Level
-Electric Conductivity (μS/cm),173029,173029,0,2,99.08,High
-Potential of Hydrogen (pH),162729,162719,10,0,93.18,High
-Chloride (mg/L),162034,162033,1,10,92.78,High
-Magnesium (mg/L),150422,150412,10,162,86.13,High
-Calcium (mg/L),149855,149855,0,76,85.81,High
-Bicarbonate (mg/L),147171,147170,1,739,84.27,High
-Total Hardness (mgCaCO3/L),144408,144408,0,151,82.69,High
-Sodium (mg/L),143470,143470,0,108,82.15,High
-Sulphate (mg/L),126328,126326,2,5806,72.34,High
-Carbonate (mg/L),120229,120229,0,104729,68.85,Moderate
-Total Alkalinity (mg/L as CaCO3),79936,79936,0,3386,45.77,Moderate
-Iron(mg/L),38702,38694,8,9589,22.16,Limited
-Total Dissolved Solids (mg/L),30151,30151,0,6646,17.27,Limited
-Silica(mg/L),24741,24625,116,7505,14.1,Limited
-Arsenic (mg/L),9927,9927,0,9781,5.68,Very sparse
-Phosphate(mg/L),8759,8759,0,6134,5.02,Very sparse
-Uranium(mg/L),5904,5904,0,3356,3.38,Very sparse
-Cadmium (mg/L),797,797,0,795,0.46,Very sparse
-Manganese (mg/L),797,797,0,365,0.46,Very sparse
-Chromium (mg/L),797,797,0,747,0.46,Very sparse
-Nickel (mg/L),797,797,0,768,0.46,Very sparse
-Copper (mg/L),796,796,0,644,0.46,Very sparse
-Zinc (mg/L),796,796,0,68,0.46,Very sparse
-Lead (mg/L),794,794,0,759,0.45,Very sparse
-Nitrate N (mgN/L),0,0,0,0,0.0,Very sparse
-Potassium (mg/L),0,0,0,0,0.0,Very sparse
-Fluoride (mg/L),0,0,0,0,0.0,Very sparse
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a4f8c73ae962b913fcf36af7b2d9bbea60f9056c64f172bf30377de9ef36930
+size 1479

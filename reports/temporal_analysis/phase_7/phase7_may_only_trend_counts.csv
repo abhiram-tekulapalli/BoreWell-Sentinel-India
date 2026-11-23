@@ -1,9 +1,3 @@
-Target,Decreasing,Increasing,No significant monotonic trend detected
-Bicarbonate (mg/L),0,0,11859
-Calcium (mg/L),0,1,12043
-Chloride (mg/L),55,73,12811
-Electric Conductivity (μS/cm),47,93,13315
-Magnesium (mg/L),2,1,12055
-Potential of Hydrogen (pH),0,0,13027
-Sodium (mg/L),0,4,11659
-Sulphate (mg/L),0,0,10272
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3ece39bfadedfd9a98025b03da315748b696e995f678331edd6839d0d736bac
+size 317

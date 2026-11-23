@@ -1,3 +1,3 @@
-Station,_spatial_group_id,Source_state,Source_district,Verified_display_state,Verified_display_district,Latitude,Longitude,Source_records,Review_status
-NOHAR1,andhra pradesh|anantapur|nohar1|site|29.28056|74.76667,Andhra Pradesh,ANANTAPUR,Rajasthan,Hanumangarh,29.280556,74.766667,18,Administrative mismatch corroborated
-Wyala,andhra pradesh|anantapur|wyala|site|20.675|76.8875,Andhra Pradesh,ANANTAPUR,Maharashtra,Akola,20.675,76.8875,16,Administrative mismatch corroborated
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdd1b6c0af95565c55946b70aa36e4b791337127e694db8f73e0624a985032cd
+size 479

@@ -1,9 +1,3 @@
-Target,All-month eligible groups,May-only eligible groups,Common eligible groups,All-month significant,May-only significant,Significant in both,Same direction in both
-Potential of Hydrogen (pH),13169,13027,13027,0,0,0,0
-Electric Conductivity (μS/cm),13596,13455,13455,135,140,131,131
-Chloride (mg/L),13082,12939,12939,128,128,124,124
-Bicarbonate (mg/L),12008,11859,11859,0,0,0,0
-Sulphate (mg/L),10419,10272,10272,0,0,0,0
-Calcium (mg/L),12193,12044,12044,1,1,1,1
-Magnesium (mg/L),12206,12058,12058,3,3,3,3
-Sodium (mg/L),11815,11663,11663,7,4,3,3
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fdf039723864205ce40bc3510bf1407658919472a3fb80476628f08070fcf87
+size 555

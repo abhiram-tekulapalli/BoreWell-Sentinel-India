@@ -1,4 +1,3 @@
-Priority_tier,Locations,Mean_priority_score,Mean_recommended_tests,Locations_with_targeted_retest,Locations_with_baseline,Locations_with_trace_alert
-P1 — Highest 10%,2421,37.01317224471122,8.0,195,2211,0
-P2 — Next 15%,3629,32.85646682442608,7.99889776798016,493,3142,0
-P3 — Remaining locations,18149,23.561780829056506,6.730618766874208,11363,6841,150
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ccb44fc24a804e6df3728e7a1b63aa63b3dea83c607dfe2233b668ad3f2e673
+size 362
