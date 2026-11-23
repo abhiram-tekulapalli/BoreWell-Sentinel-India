@@ -1,0 +1,41 @@
+BOREWELL SENTINEL INDIA — PHASE 8
+INTELLIGENT TESTING PRIORITIZATION
+
+Purpose:
+Create an explainable pilot ranking of locations for groundwater testing.
+
+Composite score weights:
+- Chemical risk component: 40%
+- Temporal trend component: 25%
+- Monitoring gap component: 20%
+- Data uncertainty component: 15%
+
+These weights are expert-designed pilot assumptions, not learned or
+independently validated weights.
+
+Priority tiers:
+- P1: highest 10% of ranked locations
+- P2: next 15%
+- P3: remaining locations
+
+Interpretation:
+The composite score represents testing and monitoring priority.
+It is not a definitive contamination probability, water-safety verdict,
+or substitute for laboratory testing.
+
+Chemical evidence:
+Locations with no valid measurements for a parameter are assigned
+baseline testing recommendations. Lack of measurements must not be
+interpreted as evidence of safe or contaminated water.
+
+Trace alerts:
+Sparse trace-element alerts are retained in separate review registers.
+They are not included in the eight-parameter composite score.
+
+Location identity:
+Spatial group identifiers are provisional. Administrative labels and
+coordinates require verification before field deployment.
+
+Validation:
+Phase 9 must evaluate sensitivity, threshold provenance, model and
+ranking limitations, and the reliability of location-level conclusions.

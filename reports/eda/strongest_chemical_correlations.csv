@@ -1,0 +1,67 @@
+﻿Parameter_A,Parameter_B,Spearman_Rho,Paired_Observations
+Bicarbonate (mg/L),Total Alkalinity (mg/L as CaCO3),0.9031341812322342,79899
+Electric Conductivity (μS/cm),Chloride (mg/L),0.8812949285469188,161997
+Magnesium (mg/L),Total Hardness (mgCaCO3/L),0.8712137127077738,142470
+Electric Conductivity (μS/cm),Sodium (mg/L),0.8657639046033575,143439
+Electric Conductivity (μS/cm),Total Hardness (mgCaCO3/L),0.8429820923308232,144385
+Chloride (mg/L),Sodium (mg/L),0.8024107910842916,142685
+Calcium (mg/L),Total Hardness (mgCaCO3/L),0.7952822769667439,141885
+Electric Conductivity (μS/cm),Magnesium (mg/L),0.7925948230361098,150378
+Electric Conductivity (μS/cm),Sulphate (mg/L),0.7546921043072922,126297
+Chloride (mg/L),Total Hardness (mgCaCO3/L),0.7317761870607573,141105
+Electric Conductivity (μS/cm),Bicarbonate (mg/L),0.7029478892616762,147140
+Chloride (mg/L),Sulphate (mg/L),0.6941723093344297,124888
+Sulphate (mg/L),Sodium (mg/L),0.6865897244385016,123842
+Chloride (mg/L),Magnesium (mg/L),0.6818704256873465,147968
+Electric Conductivity (μS/cm),Total Alkalinity (mg/L as CaCO3),0.6405172878959413,79916
+Sulphate (mg/L),Total Hardness (mgCaCO3/L),0.626512710627459,124828
+Electric Conductivity (μS/cm),Calcium (mg/L),0.6256491606854478,149819
+Bicarbonate (mg/L),Total Hardness (mgCaCO3/L),0.6154137832646617,138802
+Bicarbonate (mg/L),Sodium (mg/L),0.6153882637321549,142756
+Sodium (mg/L),Total Alkalinity (mg/L as CaCO3),0.6076780794668625,77441
+Sulphate (mg/L),Magnesium (mg/L),0.6059367500130963,126080
+Bicarbonate (mg/L),Magnesium (mg/L),0.5983215936294881,145696
+Magnesium (mg/L),Sodium (mg/L),0.5819040725637286,143108
+Total Dissolved Solids (mg/L),Total Alkalinity (mg/L as CaCO3),0.5800183847222602,11584
+Sodium (mg/L),Total Hardness (mgCaCO3/L),0.561745880804213,135463
+Potential of Hydrogen (pH),Carbonate (mg/L),0.5567880755820922,119737
+Electric Conductivity (μS/cm),Total Dissolved Solids (mg/L),0.5542149950501027,30142
+Chloride (mg/L),Calcium (mg/L),0.5521234733454521,148159
+Total Dissolved Solids (mg/L),Sodium (mg/L),0.5448986674473015,29578
+Magnesium (mg/L),Total Alkalinity (mg/L as CaCO3),0.5273004290739145,78832
+Total Dissolved Solids (mg/L),Chloride (mg/L),0.522617979657896,30130
+Total Hardness (mgCaCO3/L),Total Alkalinity (mg/L as CaCO3),0.5109580904370487,79495
+Calcium (mg/L),Magnesium (mg/L),0.4816243746600116,149586
+Total Dissolved Solids (mg/L),Total Hardness (mgCaCO3/L),0.46191492549654706,29546
+Total Dissolved Solids (mg/L),Sulphate (mg/L),0.4565597398259235,26048
+Chloride (mg/L),Bicarbonate (mg/L),0.45223181157592773,144697
+Sulphate (mg/L),Calcium (mg/L),0.4439152549854026,126141
+Chloride (mg/L),Total Alkalinity (mg/L as CaCO3),0.4356132764861793,78486
+Total Dissolved Solids (mg/L),Magnesium (mg/L),0.4305591658823722,29596
+Bicarbonate (mg/L),Calcium (mg/L),0.42607459106064965,145802
+Total Dissolved Solids (mg/L),Bicarbonate (mg/L),0.4165110307958554,29509
+Bicarbonate (mg/L),Sulphate (mg/L),0.3915981723127774,125836
+Sulphate (mg/L),Total Alkalinity (mg/L as CaCO3),0.390107390816481,77383
+Total Dissolved Solids (mg/L),Calcium (mg/L),0.36459188451797814,29599
+Calcium (mg/L),Sodium (mg/L),0.3585784053712669,143160
+Calcium (mg/L),Total Alkalinity (mg/L as CaCO3),0.3117015630273621,78827
+Calcium (mg/L),Carbonate (mg/L),-0.21702575973996274,118423
+Potential of Hydrogen (pH),Calcium (mg/L),-0.2034025795967224,147995
+Potential of Hydrogen (pH),Total Dissolved Solids (mg/L),0.14155150747894457,30108
+Potential of Hydrogen (pH),Sodium (mg/L),0.13678042344961977,142654
+Sodium (mg/L),Carbonate (mg/L),0.13169001506163378,115639
+Potential of Hydrogen (pH),Total Alkalinity (mg/L as CaCO3),0.11946348342054264,79844
+Total Hardness (mgCaCO3/L),Carbonate (mg/L),-0.1059283284063215,118078
+Potential of Hydrogen (pH),Total Hardness (mgCaCO3/L),-0.08023615954113843,141784
+Sulphate (mg/L),Carbonate (mg/L),0.07887205329144059,107091
+Potential of Hydrogen (pH),Sulphate (mg/L),0.07575042518366455,125822
+Bicarbonate (mg/L),Carbonate (mg/L),-0.07551469370033796,119532
+Potential of Hydrogen (pH),Magnesium (mg/L),0.06232957667094802,148597
+Carbonate (mg/L),Total Alkalinity (mg/L as CaCO3),0.04626329231024243,68430
+Potential of Hydrogen (pH),Electric Conductivity (μS/cm),0.042792307347378426,162694
+Electric Conductivity (μS/cm),Carbonate (mg/L),0.038161862212315725,120193
+Chloride (mg/L),Carbonate (mg/L),0.028649749710887986,117480
+Potential of Hydrogen (pH),Chloride (mg/L),0.027695314969080148,156792
+Potential of Hydrogen (pH),Bicarbonate (mg/L),0.021641480681610776,146454
+Total Dissolved Solids (mg/L),Carbonate (mg/L),0.012070786974031805,27650
+Magnesium (mg/L),Carbonate (mg/L),0.011251194566161075,118362

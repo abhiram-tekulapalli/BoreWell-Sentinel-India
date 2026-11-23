@@ -1,0 +1,28 @@
+﻿Parameter,Regression_Role,Classification_Role,Modelling_Priority
+Potential of Hydrogen (pH),Primary,Primary,Primary classification
+Electric Conductivity (μS/cm),Primary,No documented threshold,Primary regression
+Total Dissolved Solids (mg/L),Secondary,Secondary,Secondary classification
+Carbonate (mg/L),Secondary,No documented threshold,Secondary regression
+Bicarbonate (mg/L),Primary,No documented threshold,Primary regression
+Total Alkalinity (mg/L as CaCO3),Secondary,Primary,Primary classification
+Chloride (mg/L),Primary,Primary,Primary classification
+Nitrate N (mgN/L),Not selected,No documented threshold,Not selected
+Sulphate (mg/L),Primary,Primary,Primary classification
+Phosphate(mg/L),Not selected,No documented threshold,Not selected
+Silica(mg/L),Secondary,No documented threshold,Secondary regression
+Fluoride (mg/L),Not selected,No documented threshold,Not selected
+Total Hardness (mgCaCO3/L),Secondary,Primary,Primary classification
+Calcium (mg/L),Primary,Primary,Primary classification
+Magnesium (mg/L),Primary,Primary,Primary classification
+Sodium (mg/L),Primary,No documented threshold,Primary regression
+Potassium (mg/L),Not selected,No documented threshold,Not selected
+Iron(mg/L),Secondary,Secondary,Secondary classification
+Arsenic (mg/L),Not selected,Exploratory,Exploratory classification
+Uranium(mg/L),Not selected,Exploratory,Exploratory classification
+Manganese (mg/L),Not selected,Exploratory,Exploratory classification
+Copper (mg/L),Not selected,Exploratory,Exploratory classification
+Lead (mg/L),Not selected,Exploratory,Exploratory classification
+Zinc (mg/L),Not selected,Exploratory,Exploratory classification
+Nickel (mg/L),Not selected,Exploratory,Exploratory classification
+Cadmium (mg/L),Not selected,Exploratory,Exploratory classification
+Chromium (mg/L),Not selected,Exploratory,Exploratory classification

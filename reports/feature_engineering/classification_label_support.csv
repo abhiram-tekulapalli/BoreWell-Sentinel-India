@@ -1,0 +1,32 @@
+﻿Label,Available_Labels,Positive_Count,Negative_Count,Positive_Class_Percentage
+Potential of Hydrogen (pH)__exceeds_acceptable,162719,10399,152320,6.391
+Potential of Hydrogen (pH)__exceeds_permissible,162719,10399,152320,6.391
+Chloride (mg/L)__exceeds_acceptable,162033,29757,132276,18.365
+Chloride (mg/L)__exceeds_permissible,162033,5008,157025,3.091
+Magnesium (mg/L)__exceeds_acceptable,150412,70219,80193,46.684
+Magnesium (mg/L)__exceeds_permissible,150412,11423,138989,7.594
+Calcium (mg/L)__exceeds_acceptable,149855,38451,111404,25.659
+Calcium (mg/L)__exceeds_permissible,149855,4622,145233,3.084
+Total Hardness (mgCaCO3/L)__exceeds_acceptable,144408,88597,55811,61.352
+Total Hardness (mgCaCO3/L)__exceeds_permissible,144408,14789,129619,10.241
+Sulphate (mg/L)__exceeds_acceptable,126326,13802,112524,10.926
+Sulphate (mg/L)__exceeds_permissible,126080,12776,113304,10.133
+Total Alkalinity (mg/L as CaCO3)__exceeds_acceptable,79936,42096,37840,52.662
+Total Alkalinity (mg/L as CaCO3)__exceeds_permissible,79936,2751,77185,3.442
+Total Dissolved Solids (mg/L)__exceeds_acceptable,30151,13007,17144,43.14
+Total Dissolved Solids (mg/L)__exceeds_permissible,30151,1998,28153,6.627
+Arsenic (mg/L)__exceeds_acceptable,9927,57,9870,0.574
+Arsenic (mg/L)__exceeds_permissible,9927,57,9870,0.574
+Copper (mg/L)__exceeds_acceptable,796,2,794,0.251
+Copper (mg/L)__exceeds_permissible,796,0,796,0.0
+Lead (mg/L)__exceeds_acceptable,794,8,786,1.008
+Lead (mg/L)__exceeds_permissible,794,8,786,1.008
+Zinc (mg/L)__exceeds_acceptable,796,0,796,0.0
+Zinc (mg/L)__exceeds_permissible,796,0,796,0.0
+Nickel (mg/L)__exceeds_acceptable,797,1,796,0.125
+Nickel (mg/L)__exceeds_permissible,797,1,796,0.125
+Cadmium (mg/L)__exceeds_acceptable,797,0,797,0.0
+Cadmium (mg/L)__exceeds_permissible,797,0,797,0.0
+Chromium (mg/L)__exceeds_acceptable,797,0,797,0.0
+Chromium (mg/L)__exceeds_permissible,797,0,797,0.0
+Iron_Manganese__combined_exceeds_0_3,788,106,682,13.452

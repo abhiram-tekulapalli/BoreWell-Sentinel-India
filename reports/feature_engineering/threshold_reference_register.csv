@@ -1,0 +1,20 @@
+﻿Parameter,Unit,Acceptable_Lower,Acceptable_Upper,Acceptable_Max,Permissible_Max,Rule,Status
+Potential of Hydrogen (pH),pH,6.5,8.5,,,Range; no relaxation,Ready
+Total Dissolved Solids (mg/L),mg/L,,,500.0,2000.0,Upper limit,Ready
+Chloride (mg/L),mg/L,,,250.0,1000.0,Upper limit,Ready
+Sulphate (mg/L),mg/L,,,200.0,400.0,Conditional on Mg <= 30 mg/L,Ready with condition
+Total Hardness (mgCaCO3/L),mg/L as CaCO3,,,200.0,600.0,Upper limit,Ready
+Calcium (mg/L),mg/L as Ca,,,75.0,200.0,Upper limit,Ready
+Magnesium (mg/L),mg/L as Mg,,,30.0,100.0,Upper limit,Ready
+Total Alkalinity (mg/L as CaCO3),mg/L as CaCO3,,,200.0,600.0,Upper limit,Ready
+Arsenic (mg/L),mg/L as As,,,0.01,,No relaxation,Provisional analyte match
+Cadmium (mg/L),mg/L as Cd,,,0.003,,No relaxation,Ready
+Lead (mg/L),mg/L as Pb,,,0.01,,No relaxation,Ready
+Chromium (mg/L),mg/L as Cr,,,0.05,,No relaxation,Ready
+Nickel (mg/L),mg/L as Ni,,,0.02,,No relaxation,Ready
+Copper (mg/L),mg/L as Cu,,,0.05,1.5,Upper limit,Ready
+Zinc (mg/L),mg/L as Zn,,,5.0,15.0,Upper limit,Ready
+Fluoride (mg/L),mg/L as F,,,1.0,1.5,Upper limit,No observations
+Nitrate N (mgN/L),mg/L as N,,,45.0,,Convert nitrate-N to nitrate,No observations; unit conversion required
+Iron(mg/L),mg/L as Fe,,,,,Iron-manganese combined condition,Deferred for joint-rule review
+Manganese (mg/L),mg/L as Mn,,,,,Iron-manganese combined condition,Deferred for joint-rule review

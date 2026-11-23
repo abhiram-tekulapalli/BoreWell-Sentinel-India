@@ -1,0 +1,241 @@
+Model,Target,Rank,Feature,Importance
+Context-only,Potential of Hydrogen (pH),1,numeric___latitude,0.25811314800449
+Context-only,Potential of Hydrogen (pH),2,numeric___longitude,0.1985142747303575
+Context-only,Potential of Hydrogen (pH),3,numeric___year_index,0.19474869538929632
+Context-only,Potential of Hydrogen (pH),4,categorical___state_feature_madhya pradesh,0.06334295225600285
+Context-only,Potential of Hydrogen (pH),5,numeric___dayofyear_sin,0.024296442538158748
+Context-only,Potential of Hydrogen (pH),6,numeric___dayofyear_cos,0.024233057906602108
+Context-only,Potential of Hydrogen (pH),7,categorical___state_feature_kerala,0.01682380622557302
+Context-only,Potential of Hydrogen (pH),8,categorical___state_feature_tamil nadu,0.011997703102203192
+Context-only,Potential of Hydrogen (pH),9,categorical___state_feature_karnataka,0.007787544698041655
+Context-only,Potential of Hydrogen (pH),10,categorical___district_feature_sindudurg,0.0069860295505842504
+Context-only,Potential of Hydrogen (pH),11,categorical___district_feature_ratnagiri,0.006151511570550109
+Context-only,Potential of Hydrogen (pH),12,categorical___district_feature_palakkad,0.005215991134287551
+Context-only,Potential of Hydrogen (pH),13,categorical___state_feature_haryana,0.004988175011444852
+Context-only,Potential of Hydrogen (pH),14,categorical___state_feature_andhra pradesh,0.004634772272452631
+Context-only,Potential of Hydrogen (pH),15,categorical___state_feature_telangana,0.004221176440463277
+Context-only,Electric Conductivity (μS/cm),1,numeric___longitude,0.3278037239058841
+Context-only,Electric Conductivity (μS/cm),2,numeric___latitude,0.23458456462168684
+Context-only,Electric Conductivity (μS/cm),3,categorical___state_feature_kerala,0.09995036629630975
+Context-only,Electric Conductivity (μS/cm),4,numeric___year_index,0.07093825500135137
+Context-only,Electric Conductivity (μS/cm),5,categorical___state_feature_rajasthan,0.04418989503423127
+Context-only,Electric Conductivity (μS/cm),6,categorical___district_feature_ratnagiri,0.022423288993680793
+Context-only,Electric Conductivity (μS/cm),7,categorical___state_feature_andhra pradesh,0.02016560383050315
+Context-only,Electric Conductivity (μS/cm),8,numeric___dayofyear_cos,0.016652974076238652
+Context-only,Electric Conductivity (μS/cm),9,numeric___dayofyear_sin,0.015283537889836466
+Context-only,Electric Conductivity (μS/cm),10,categorical___district_feature_sindudurg,0.012071602048760607
+Context-only,Electric Conductivity (μS/cm),11,categorical___state_feature_haryana,0.009104604123780106
+Context-only,Electric Conductivity (μS/cm),12,categorical___state_feature_tamil nadu,0.008451354384103466
+Context-only,Electric Conductivity (μS/cm),13,categorical___state_feature_goa,0.00781642000740741
+Context-only,Electric Conductivity (μS/cm),14,categorical___state_feature_chhattisgarh,0.0075606394475906
+Context-only,Electric Conductivity (μS/cm),15,categorical___state_feature_madhya pradesh,0.003571020376951326
+Context-only,Chloride (mg/L),1,numeric___longitude,0.3111677365616223
+Context-only,Chloride (mg/L),2,numeric___latitude,0.26934503562481366
+Context-only,Chloride (mg/L),3,numeric___year_index,0.08824124775996724
+Context-only,Chloride (mg/L),4,categorical___state_feature_rajasthan,0.060193513313470316
+Context-only,Chloride (mg/L),5,categorical___state_feature_tamil nadu,0.03907746566528304
+Context-only,Chloride (mg/L),6,categorical___state_feature_andhra pradesh,0.03667854436636704
+Context-only,Chloride (mg/L),7,categorical___state_feature_kerala,0.023230617384864333
+Context-only,Chloride (mg/L),8,numeric___dayofyear_cos,0.019281503966433466
+Context-only,Chloride (mg/L),9,numeric___dayofyear_sin,0.016470994491937636
+Context-only,Chloride (mg/L),10,categorical___state_feature_haryana,0.014108692984665468
+Context-only,Chloride (mg/L),11,categorical___state_feature_gujarat,0.008046240320412791
+Context-only,Chloride (mg/L),12,categorical___state_feature_telangana,0.007610972362126376
+Context-only,Chloride (mg/L),13,categorical___district_feature_ratnagiri,0.006783545276612292
+Context-only,Chloride (mg/L),14,categorical___state_feature_delhi,0.006451977436555709
+Context-only,Chloride (mg/L),15,categorical___state_feature_chhattisgarh,0.0034002898193775154
+Context-only,Bicarbonate (mg/L),1,numeric___longitude,0.2185500357451812
+Context-only,Bicarbonate (mg/L),2,numeric___year_index,0.20178298331235003
+Context-only,Bicarbonate (mg/L),3,numeric___latitude,0.1720052452617802
+Context-only,Bicarbonate (mg/L),4,categorical___state_feature_kerala,0.14085283291309467
+Context-only,Bicarbonate (mg/L),5,categorical___state_feature_chhattisgarh,0.04611637842033891
+Context-only,Bicarbonate (mg/L),6,categorical___state_feature_karnataka,0.030558987695022258
+Context-only,Bicarbonate (mg/L),7,categorical___district_feature_ratnagiri,0.020366824452039318
+Context-only,Bicarbonate (mg/L),8,numeric___dayofyear_cos,0.01819424622811599
+Context-only,Bicarbonate (mg/L),9,numeric___dayofyear_sin,0.017401181624481298
+Context-only,Bicarbonate (mg/L),10,categorical___district_feature_sindudurg,0.015191120532773645
+Context-only,Bicarbonate (mg/L),11,categorical___state_feature_goa,0.015110667335091135
+Context-only,Bicarbonate (mg/L),12,categorical___state_feature_rajasthan,0.0063404581790588565
+Context-only,Bicarbonate (mg/L),13,categorical___state_feature_uttar pradesh,0.005621653376443118
+Context-only,Bicarbonate (mg/L),14,categorical___district_feature_palakkad,0.004541665765579841
+Context-only,Bicarbonate (mg/L),15,categorical___district_feature_kolhapur,0.0035840594716433976
+Context-only,Sulphate (mg/L),1,numeric___longitude,0.30406742029069544
+Context-only,Sulphate (mg/L),2,numeric___latitude,0.23985553317072264
+Context-only,Sulphate (mg/L),3,numeric___year_index,0.1237033781870389
+Context-only,Sulphate (mg/L),4,categorical___state_feature_kerala,0.057095425631869264
+Context-only,Sulphate (mg/L),5,categorical___state_feature_rajasthan,0.04536271916901329
+Context-only,Sulphate (mg/L),6,numeric___dayofyear_cos,0.020168558079854706
+Context-only,Sulphate (mg/L),7,categorical___state_feature_haryana,0.02013964707989663
+Context-only,Sulphate (mg/L),8,categorical___district_feature_ratnagiri,0.019198054347081113
+Context-only,Sulphate (mg/L),9,numeric___dayofyear_sin,0.017307144636015535
+Context-only,Sulphate (mg/L),10,categorical___state_feature_andhra pradesh,0.015403069097423113
+Context-only,Sulphate (mg/L),11,categorical___district_feature_sindudurg,0.011704791291776293
+Context-only,Sulphate (mg/L),12,categorical___state_feature_uttar pradesh,0.009660374421445302
+Context-only,Sulphate (mg/L),13,categorical___state_feature_madhya pradesh,0.007350360388285848
+Context-only,Sulphate (mg/L),14,categorical___state_feature_tamil nadu,0.005187159500033099
+Context-only,Sulphate (mg/L),15,categorical___district_feature_koraput,0.0032477023636231796
+Context-only,Calcium (mg/L),1,numeric___longitude,0.2895112203967597
+Context-only,Calcium (mg/L),2,numeric___latitude,0.2587435790237018
+Context-only,Calcium (mg/L),3,numeric___year_index,0.12464536123216764
+Context-only,Calcium (mg/L),4,categorical___state_feature_kerala,0.08945319637746073
+Context-only,Calcium (mg/L),5,categorical___state_feature_karnataka,0.021512771880936876
+Context-only,Calcium (mg/L),6,categorical___district_feature_ratnagiri,0.02081894595333041
+Context-only,Calcium (mg/L),7,numeric___dayofyear_cos,0.019699066680903616
+Context-only,Calcium (mg/L),8,numeric___dayofyear_sin,0.018189875298960604
+Context-only,Calcium (mg/L),9,categorical___district_feature_sindudurg,0.016497575346077643
+Context-only,Calcium (mg/L),10,categorical___state_feature_goa,0.013059732123840668
+Context-only,Calcium (mg/L),11,categorical___state_feature_uttar pradesh,0.009057234196425623
+Context-only,Calcium (mg/L),12,categorical___state_feature_gujarat,0.005292044241302685
+Context-only,Calcium (mg/L),13,categorical___state_feature_madhya pradesh,0.0035323924743176516
+Context-only,Calcium (mg/L),14,categorical___state_feature_andhra pradesh,0.0028740934879965025
+Context-only,Calcium (mg/L),15,categorical___state_feature_rajasthan,0.002544945536489903
+Context-only,Magnesium (mg/L),1,numeric___longitude,0.28582431014579146
+Context-only,Magnesium (mg/L),2,numeric___latitude,0.23095900705550831
+Context-only,Magnesium (mg/L),3,categorical___state_feature_kerala,0.1271313012566311
+Context-only,Magnesium (mg/L),4,numeric___year_index,0.09932013884472755
+Context-only,Magnesium (mg/L),5,categorical___district_feature_ratnagiri,0.020514425211864813
+Context-only,Magnesium (mg/L),6,categorical___state_feature_madhya pradesh,0.02002059179445477
+Context-only,Magnesium (mg/L),7,numeric___dayofyear_cos,0.019704455697571913
+Context-only,Magnesium (mg/L),8,numeric___dayofyear_sin,0.017589581160327467
+Context-only,Magnesium (mg/L),9,categorical___state_feature_chhattisgarh,0.01632337032346871
+Context-only,Magnesium (mg/L),10,categorical___state_feature_karnataka,0.015999664767244615
+Context-only,Magnesium (mg/L),11,categorical___district_feature_sindudurg,0.014806552551555573
+Context-only,Magnesium (mg/L),12,categorical___state_feature_goa,0.011509967231210184
+Context-only,Magnesium (mg/L),13,categorical___state_feature_andhra pradesh,0.007261812994999119
+Context-only,Magnesium (mg/L),14,categorical___state_feature_uttar pradesh,0.006857816055010668
+Context-only,Magnesium (mg/L),15,categorical___district_feature_raigad,0.0038092478612616744
+Context-only,Sodium (mg/L),1,numeric___longitude,0.2693674617373172
+Context-only,Sodium (mg/L),2,numeric___latitude,0.23721910907351798
+Context-only,Sodium (mg/L),3,categorical___state_feature_rajasthan,0.09994709450763883
+Context-only,Sodium (mg/L),4,numeric___year_index,0.09787264839007115
+Context-only,Sodium (mg/L),5,categorical___state_feature_kerala,0.034969173578323146
+Context-only,Sodium (mg/L),6,categorical___state_feature_andhra pradesh,0.02915431164312239
+Context-only,Sodium (mg/L),7,categorical___state_feature_maharashtra,0.026063803972013445
+Context-only,Sodium (mg/L),8,categorical___state_feature_haryana,0.02124368060120005
+Context-only,Sodium (mg/L),9,categorical___state_feature_tamil nadu,0.01779224159031135
+Context-only,Sodium (mg/L),10,numeric___dayofyear_cos,0.01584476856348332
+Context-only,Sodium (mg/L),11,numeric___dayofyear_sin,0.014888676364010787
+Context-only,Sodium (mg/L),12,categorical___state_feature_gujarat,0.011718356095123358
+Context-only,Sodium (mg/L),13,categorical___state_feature_madhya pradesh,0.008683574828341128
+Context-only,Sodium (mg/L),14,categorical___state_feature_punjab,0.005362847146054485
+Context-only,Sodium (mg/L),15,categorical___state_feature_chhattisgarh,0.004966029915546164
+Chemistry-assisted,Potential of Hydrogen (pH),1,numeric___chem_log1p__Calcium (mg/L),0.11958589514457844
+Chemistry-assisted,Potential of Hydrogen (pH),2,numeric___year_index,0.10692492632318952
+Chemistry-assisted,Potential of Hydrogen (pH),3,numeric___latitude,0.10549337615016147
+Chemistry-assisted,Potential of Hydrogen (pH),4,numeric___chem_log1p__Bicarbonate (mg/L),0.10529073639665891
+Chemistry-assisted,Potential of Hydrogen (pH),5,numeric___longitude,0.07818030157496587
+Chemistry-assisted,Potential of Hydrogen (pH),6,numeric___chem_log1p__Electric Conductivity (μS/cm),0.07365279569244053
+Chemistry-assisted,Potential of Hydrogen (pH),7,numeric___chem_log1p__Sodium (mg/L),0.06799458039895398
+Chemistry-assisted,Potential of Hydrogen (pH),8,categorical___state_feature_madhya pradesh,0.057806954743304766
+Chemistry-assisted,Potential of Hydrogen (pH),9,numeric___chem_log1p__Magnesium (mg/L),0.04824532790848702
+Chemistry-assisted,Potential of Hydrogen (pH),10,numeric___chem_log1p__Sulphate (mg/L),0.047083717789194346
+Chemistry-assisted,Potential of Hydrogen (pH),11,numeric___chem_log1p__Chloride (mg/L),0.04061667620874599
+Chemistry-assisted,Potential of Hydrogen (pH),12,categorical___state_feature_tamil nadu,0.01381842653081024
+Chemistry-assisted,Potential of Hydrogen (pH),13,numeric___dayofyear_sin,0.012208306874778148
+Chemistry-assisted,Potential of Hydrogen (pH),14,numeric___dayofyear_cos,0.011891463568379739
+Chemistry-assisted,Potential of Hydrogen (pH),15,categorical___state_feature_kerala,0.010828976040730472
+Chemistry-assisted,Electric Conductivity (μS/cm),1,numeric___chem_log1p__Chloride (mg/L),0.5273538536450462
+Chemistry-assisted,Electric Conductivity (μS/cm),2,numeric___chem_log1p__Bicarbonate (mg/L),0.16741581886110007
+Chemistry-assisted,Electric Conductivity (μS/cm),3,numeric___chem_log1p__Sodium (mg/L),0.16438561861985868
+Chemistry-assisted,Electric Conductivity (μS/cm),4,numeric___chem_log1p__Magnesium (mg/L),0.06053795072666543
+Chemistry-assisted,Electric Conductivity (μS/cm),5,numeric___chem_log1p__Sulphate (mg/L),0.03541657794978702
+Chemistry-assisted,Electric Conductivity (μS/cm),6,numeric___chem_log1p__Calcium (mg/L),0.033879729446939386
+Chemistry-assisted,Electric Conductivity (μS/cm),7,numeric___longitude,0.0024567664078296177
+Chemistry-assisted,Electric Conductivity (μS/cm),8,numeric___latitude,0.0019288952221092285
+Chemistry-assisted,Electric Conductivity (μS/cm),9,numeric___chem_log1p__Potential of Hydrogen (pH),0.0016632173718367888
+Chemistry-assisted,Electric Conductivity (μS/cm),10,numeric___year_index,0.0010691517803642317
+Chemistry-assisted,Electric Conductivity (μS/cm),11,numeric___dayofyear_cos,0.0003726631338900011
+Chemistry-assisted,Electric Conductivity (μS/cm),12,numeric___dayofyear_sin,0.00028497412944176716
+Chemistry-assisted,Electric Conductivity (μS/cm),13,categorical___state_feature_maharashtra,0.00026739939163565824
+Chemistry-assisted,Electric Conductivity (μS/cm),14,categorical___state_feature_madhya pradesh,0.0001764635533272026
+Chemistry-assisted,Electric Conductivity (μS/cm),15,categorical___district_feature_ratnagiri,0.00015168963755794217
+Chemistry-assisted,Chloride (mg/L),1,numeric___chem_log1p__Electric Conductivity (μS/cm),0.6783802668536221
+Chemistry-assisted,Chloride (mg/L),2,numeric___chem_log1p__Sodium (mg/L),0.15505941503295026
+Chemistry-assisted,Chloride (mg/L),3,numeric___chem_log1p__Bicarbonate (mg/L),0.056264266122972834
+Chemistry-assisted,Chloride (mg/L),4,numeric___chem_log1p__Sulphate (mg/L),0.04056023583101267
+Chemistry-assisted,Chloride (mg/L),5,numeric___chem_log1p__Magnesium (mg/L),0.017441248827123744
+Chemistry-assisted,Chloride (mg/L),6,numeric___latitude,0.012599189156056224
+Chemistry-assisted,Chloride (mg/L),7,numeric___chem_log1p__Calcium (mg/L),0.011417354972078601
+Chemistry-assisted,Chloride (mg/L),8,numeric___longitude,0.007795770449809224
+Chemistry-assisted,Chloride (mg/L),9,numeric___chem_log1p__Potential of Hydrogen (pH),0.006526557933723149
+Chemistry-assisted,Chloride (mg/L),10,numeric___year_index,0.004018063180808059
+Chemistry-assisted,Chloride (mg/L),11,categorical___state_feature_madhya pradesh,0.0015787492773218117
+Chemistry-assisted,Chloride (mg/L),12,categorical___state_feature_maharashtra,0.0009323074410460721
+Chemistry-assisted,Chloride (mg/L),13,numeric___dayofyear_cos,0.0009033776208562999
+Chemistry-assisted,Chloride (mg/L),14,numeric___dayofyear_sin,0.0007979658219176289
+Chemistry-assisted,Chloride (mg/L),15,categorical___state_feature_uttar pradesh,0.0007147883877924715
+Chemistry-assisted,Bicarbonate (mg/L),1,numeric___chem_log1p__Electric Conductivity (μS/cm),0.46248692552666953
+Chemistry-assisted,Bicarbonate (mg/L),2,numeric___chem_log1p__Magnesium (mg/L),0.10666029849796298
+Chemistry-assisted,Bicarbonate (mg/L),3,numeric___chem_log1p__Calcium (mg/L),0.08251776967329433
+Chemistry-assisted,Bicarbonate (mg/L),4,numeric___chem_log1p__Chloride (mg/L),0.07726969921078262
+Chemistry-assisted,Bicarbonate (mg/L),5,numeric___chem_log1p__Sodium (mg/L),0.06296335539465119
+Chemistry-assisted,Bicarbonate (mg/L),6,numeric___year_index,0.06188955453948975
+Chemistry-assisted,Bicarbonate (mg/L),7,numeric___chem_log1p__Sulphate (mg/L),0.04205093764487111
+Chemistry-assisted,Bicarbonate (mg/L),8,numeric___chem_log1p__Potential of Hydrogen (pH),0.03379231596011795
+Chemistry-assisted,Bicarbonate (mg/L),9,numeric___latitude,0.01534454380560865
+Chemistry-assisted,Bicarbonate (mg/L),10,numeric___longitude,0.013441745654751616
+Chemistry-assisted,Bicarbonate (mg/L),11,categorical___state_feature_chhattisgarh,0.01238210881997994
+Chemistry-assisted,Bicarbonate (mg/L),12,numeric___dayofyear_sin,0.003865320628468892
+Chemistry-assisted,Bicarbonate (mg/L),13,numeric___dayofyear_cos,0.002260783536666198
+Chemistry-assisted,Bicarbonate (mg/L),14,categorical___state_feature_karnataka,0.0016663330126614171
+Chemistry-assisted,Bicarbonate (mg/L),15,categorical___state_feature_kerala,0.001617770287784916
+Chemistry-assisted,Sulphate (mg/L),1,numeric___chem_log1p__Electric Conductivity (μS/cm),0.5081181121204981
+Chemistry-assisted,Sulphate (mg/L),2,numeric___chem_log1p__Chloride (mg/L),0.12550153684612128
+Chemistry-assisted,Sulphate (mg/L),3,numeric___chem_log1p__Sodium (mg/L),0.07479432239998585
+Chemistry-assisted,Sulphate (mg/L),4,numeric___chem_log1p__Bicarbonate (mg/L),0.07078287672340036
+Chemistry-assisted,Sulphate (mg/L),5,numeric___latitude,0.041765784973488214
+Chemistry-assisted,Sulphate (mg/L),6,numeric___longitude,0.0330013174263639
+Chemistry-assisted,Sulphate (mg/L),7,numeric___chem_log1p__Magnesium (mg/L),0.03189248462119883
+Chemistry-assisted,Sulphate (mg/L),8,numeric___chem_log1p__Calcium (mg/L),0.02591647740070309
+Chemistry-assisted,Sulphate (mg/L),9,numeric___chem_log1p__Potential of Hydrogen (pH),0.022633314087976704
+Chemistry-assisted,Sulphate (mg/L),10,numeric___year_index,0.022301694252184888
+Chemistry-assisted,Sulphate (mg/L),11,categorical___state_feature_uttar pradesh,0.006557584667976984
+Chemistry-assisted,Sulphate (mg/L),12,numeric___dayofyear_cos,0.005065692183090675
+Chemistry-assisted,Sulphate (mg/L),13,numeric___dayofyear_sin,0.005056463364212927
+Chemistry-assisted,Sulphate (mg/L),14,categorical___state_feature_west bengal,0.001855266914511959
+Chemistry-assisted,Sulphate (mg/L),15,categorical___state_feature_madhya pradesh,0.0016270935791129748
+Chemistry-assisted,Calcium (mg/L),1,numeric___chem_log1p__Electric Conductivity (μS/cm),0.3694952112318985
+Chemistry-assisted,Calcium (mg/L),2,numeric___chem_log1p__Chloride (mg/L),0.1401624827398444
+Chemistry-assisted,Calcium (mg/L),3,numeric___chem_log1p__Potential of Hydrogen (pH),0.1054688482552793
+Chemistry-assisted,Calcium (mg/L),4,numeric___chem_log1p__Sodium (mg/L),0.10443436676410928
+Chemistry-assisted,Calcium (mg/L),5,numeric___chem_log1p__Magnesium (mg/L),0.09001452406210872
+Chemistry-assisted,Calcium (mg/L),6,numeric___chem_log1p__Bicarbonate (mg/L),0.08793784885933571
+Chemistry-assisted,Calcium (mg/L),7,numeric___latitude,0.02573616865433976
+Chemistry-assisted,Calcium (mg/L),8,numeric___chem_log1p__Sulphate (mg/L),0.024661589812375314
+Chemistry-assisted,Calcium (mg/L),9,numeric___longitude,0.019887846665420424
+Chemistry-assisted,Calcium (mg/L),10,numeric___year_index,0.010870723549273216
+Chemistry-assisted,Calcium (mg/L),11,categorical___state_feature_madhya pradesh,0.002480703742223748
+Chemistry-assisted,Calcium (mg/L),12,numeric___dayofyear_cos,0.0019026733072421515
+Chemistry-assisted,Calcium (mg/L),13,numeric___dayofyear_sin,0.0017915948237658202
+Chemistry-assisted,Calcium (mg/L),14,categorical___state_feature_uttar pradesh,0.0017191628815191465
+Chemistry-assisted,Calcium (mg/L),15,categorical___state_feature_rajasthan,0.0009973627326610329
+Chemistry-assisted,Magnesium (mg/L),1,numeric___chem_log1p__Electric Conductivity (μS/cm),0.5723056692457705
+Chemistry-assisted,Magnesium (mg/L),2,numeric___chem_log1p__Chloride (mg/L),0.10625172709735041
+Chemistry-assisted,Magnesium (mg/L),3,numeric___chem_log1p__Sodium (mg/L),0.08812204822011203
+Chemistry-assisted,Magnesium (mg/L),4,numeric___chem_log1p__Calcium (mg/L),0.07138134300530156
+Chemistry-assisted,Magnesium (mg/L),5,numeric___chem_log1p__Bicarbonate (mg/L),0.06708114404899743
+Chemistry-assisted,Magnesium (mg/L),6,numeric___chem_log1p__Sulphate (mg/L),0.023832699904100165
+Chemistry-assisted,Magnesium (mg/L),7,numeric___latitude,0.016369725723449885
+Chemistry-assisted,Magnesium (mg/L),8,numeric___longitude,0.013917604491373069
+Chemistry-assisted,Magnesium (mg/L),9,numeric___chem_log1p__Potential of Hydrogen (pH),0.010782050629822248
+Chemistry-assisted,Magnesium (mg/L),10,numeric___year_index,0.007543087946804744
+Chemistry-assisted,Magnesium (mg/L),11,categorical___state_feature_kerala,0.006247814728538803
+Chemistry-assisted,Magnesium (mg/L),12,categorical___state_feature_madhya pradesh,0.002218247209460045
+Chemistry-assisted,Magnesium (mg/L),13,numeric___dayofyear_cos,0.0018647340915057013
+Chemistry-assisted,Magnesium (mg/L),14,categorical___state_feature_maharashtra,0.0017184012989895881
+Chemistry-assisted,Magnesium (mg/L),15,numeric___dayofyear_sin,0.0015754783160654617
+Chemistry-assisted,Sodium (mg/L),1,numeric___chem_log1p__Electric Conductivity (μS/cm),0.6292307270795705
+Chemistry-assisted,Sodium (mg/L),2,numeric___chem_log1p__Chloride (mg/L),0.1441038196469698
+Chemistry-assisted,Sodium (mg/L),3,numeric___chem_log1p__Calcium (mg/L),0.056860469793102476
+Chemistry-assisted,Sodium (mg/L),4,numeric___chem_log1p__Magnesium (mg/L),0.05470901450045694
+Chemistry-assisted,Sodium (mg/L),5,numeric___chem_log1p__Sulphate (mg/L),0.031889477455966896
+Chemistry-assisted,Sodium (mg/L),6,numeric___chem_log1p__Bicarbonate (mg/L),0.027190714508896867
+Chemistry-assisted,Sodium (mg/L),7,numeric___year_index,0.011625235388332326
+Chemistry-assisted,Sodium (mg/L),8,categorical___state_feature_maharashtra,0.01154270326473047
+Chemistry-assisted,Sodium (mg/L),9,numeric___latitude,0.009909045530675505
+Chemistry-assisted,Sodium (mg/L),10,numeric___longitude,0.007505013295452183
+Chemistry-assisted,Sodium (mg/L),11,numeric___chem_log1p__Potential of Hydrogen (pH),0.00629290051972489
+Chemistry-assisted,Sodium (mg/L),12,numeric___dayofyear_cos,0.0011043172963278133
+Chemistry-assisted,Sodium (mg/L),13,numeric___dayofyear_sin,0.000926354738829852
+Chemistry-assisted,Sodium (mg/L),14,categorical___state_feature_madhya pradesh,0.0006516870836982618
+Chemistry-assisted,Sodium (mg/L),15,categorical___state_feature_chhattisgarh,0.0004586556337289484

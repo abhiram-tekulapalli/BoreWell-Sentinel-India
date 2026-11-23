@@ -1,0 +1,9 @@
+Target,States_compared,Assisted_MAE_wins,Assisted_R2_wins,MAE_win_percentage,R2_win_percentage
+Bicarbonate (mg/L),24,24,24,100.0,100.0
+Calcium (mg/L),24,24,24,100.0,100.0
+Chloride (mg/L),24,24,24,100.0,100.0
+Electric Conductivity (μS/cm),24,24,24,100.0,100.0
+Magnesium (mg/L),24,24,24,100.0,100.0
+Potential of Hydrogen (pH),24,9,10,37.5,41.66666666666667
+Sodium (mg/L),24,24,24,100.0,100.0
+Sulphate (mg/L),24,23,23,95.83333333333334,95.83333333333334

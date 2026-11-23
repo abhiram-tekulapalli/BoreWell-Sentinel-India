@@ -1,0 +1,9 @@
+Target,Forecasting decision,Median improvement,Trend wins (%)
+Potential of Hydrogen (pH),No conclusive location-level advantage,0.0029772727272709965,50.936254980079674
+Electric Conductivity (μS/cm),Persistence is preferred,-3.935897435899278,47.0379846486912
+Chloride (mg/L),Persistence is preferred,-0.5,46.89447236180905
+Bicarbonate (mg/L),"Average benefit, but not typical-location benefit",0.0,49.71213463241807
+Sulphate (mg/L),Persistence is preferred,-1.25,38.16452154448797
+Calcium (mg/L),Persistence is preferred,-0.4141466666667384,46.193118756936734
+Magnesium (mg/L),"Average benefit, but not typical-location benefit",-0.04101010101006963,48.763644464245935
+Sodium (mg/L),Persistence is preferred,-0.32115384615384457,47.17151228307415

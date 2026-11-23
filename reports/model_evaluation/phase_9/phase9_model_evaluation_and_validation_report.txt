@@ -1,0 +1,83 @@
+BOREWELL SENTINEL INDIA
+PHASE 9 — MODEL EVALUATION AND VALIDATION
+
+1. EVALUATION DATA
+- Saved spatial holdout predictions: 24,708 records.
+- Unique spatial groups in holdout: 4,359.
+- States represented: 30.
+- States meeting the 50-record regional analysis threshold: 24.
+- Records in the six excluded small state groups: 85.
+- The recalculated national MAE, RMSE and R2 values reproduce
+  the Phase 6 comparison export exactly.
+
+2. REGRESSION PERFORMANCE
+- Chemistry-assisted models have lower national MAE and higher
+  national R2 than context-only models for all eight targets.
+- Chemistry-assisted national R2:
+  pH 0.5418; EC 0.9413; chloride 0.9245;
+  bicarbonate 0.7727; sulphate 0.5702;
+  calcium 0.7411; magnesium 0.7096; sodium 0.9285.
+- Chemistry-assisted performance varies by target and region.
+- pH is notably less consistent across states than most other targets.
+
+3. EXTREME-VALUE LIMITATION
+- All eight chemistry-assisted models underpredict on average
+  within the highest actual-value decile.
+- Highest-decile MAE is approximately 1.76 to 5.20 times
+  the overall MAE, depending on target.
+- Predictions show regression towards typical values and can
+  underestimate extreme measurements.
+
+4. SCREENING EVALUATION
+- Five of the eight regression targets have directly matching
+  Phase 5 screening rules: pH, chloride, calcium, magnesium,
+  and sulphate.
+- No directly matching threshold was used for EC, bicarbonate,
+  or sodium.
+- The actual-label consistency check has zero mismatches for
+  every evaluated screening definition.
+- Chemistry-assisted threshold detection improves on context-only
+  detection for eight of the nine comparisons.
+- pH is the exception: assisted recall is 21.827%, compared with
+  22.755% for context-only.
+- Assisted false-reassurance rates include:
+  pH 78.173%;
+  calcium permissible 52.582%;
+  magnesium permissible 29.903%;
+  sulphate conditional permissible 30.337%.
+
+5. SULPHATE CONDITIONAL RULE
+The Phase 5 permissible sulphate label is reproduced exactly by:
+- Magnesium <= 30 mg/L: sulphate > 400 mg/L
+- Magnesium > 30 mg/L: sulphate > 200 mg/L
+
+The corrected test-set comparison uses actual measured magnesium
+as the conditioning input. This evaluates the conditional label
+semantics and should not be confused with a stand-alone sulphate
+prediction that has no magnesium measurement available.
+
+6. PRACTICAL INTERPRETATION
+- Chemistry-assisted estimates are supplementary analytical outputs
+  when the other seven chemistry measurements are available.
+- Context-only predictions are substantially weaker for most targets.
+- Neither model should independently clear a sample as compliant.
+- Actual laboratory measurements must take precedence.
+- High-value underprediction and screening false negatives require
+  explicit warnings in any future application.
+- EC, bicarbonate and sodium must not inherit thresholds from
+  different parameters.
+
+7. IMPORTANT LIMITATIONS
+- This is retrospective evaluation on one spatial holdout.
+- No independent external dataset has been validated here.
+- The Phase 5 threshold registry and label semantics are reproduced,
+  not independently certified by this evaluation.
+- The sulphate condition remains subject to the documented
+  methodological provenance review.
+- Performance metrics do not establish field-level water safety.
+- Point predictions are not calibrated prediction intervals.
+- Results must not be interpreted as causal or health-risk estimates.
+
+PHASE 9 STATUS
+Evaluation of the existing saved models and holdout predictions
+is complete. Model retraining and improvement are separate future work.
