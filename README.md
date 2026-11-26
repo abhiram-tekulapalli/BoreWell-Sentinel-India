@@ -1,19 +1,28 @@
 # BoreWell Sentinel India
 
-> **Groundwater Quality Analytics, Testing Prioritization & Research Prediction Platform for India**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhiram-tekulapalli/project_readme_assets/main/header.svg" alt="BoreWell Sentinel India" width="100%" />
+</p>
 
-[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green.svg)](https://fastapi.tiangolo.com)
-[![React](https://img.shields.io/badge/React-18+-61DAFB.svg)](https://react.dev)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<p align="center">
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-0.115+-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"></a>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"></a>
+  <a href="https://leafletjs.com"><img src="https://img.shields.io/badge/Leaflet-1.9+-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet"></a>
+  <a href="https://scikit-learn.org"><img src="https://img.shields.io/badge/Scikit--Learn-1.5+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"></a>
+  <a href="https://pandas.pydata.org"><img src="https://img.shields.io/badge/Pandas-2.2+-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License"></a>
+</p>
 
 ---
 
-## Overview
+## 🎯 Overview
 
 **BoreWell Sentinel India** is an end-to-end machine learning and analytics platform for groundwater quality monitoring across India. It transforms raw CGWB (Central Ground Water Board) chemical parameter data into actionable testing priorities, interactive maps, and research-grade predictions for 8 key groundwater contaminants.
 
-### Key Capabilities
+---
+
+## 🔑 Key Capabilities
 
 | Module | Description |
 |--------|-------------|
@@ -27,7 +36,7 @@
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 BoreWell Sentinel India/
@@ -58,7 +67,7 @@ BoreWell Sentinel India/
 
 ---
 
-## Data Source
+## 📊 Data Source
 
 **Central Ground Water Board (CGWB)** — *Ground Water Quality Chemical Parameters Manual (1961–2025)*
 
@@ -71,10 +80,9 @@ BoreWell Sentinel India/
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
-
 - Python 3.11+
 - Node.js 18+
 - 8+ GB RAM (for model loading)
@@ -99,7 +107,7 @@ cd app/backend
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-API will be available at:
+API available at:
 - **Swagger UI**: http://127.0.0.1:8000/docs
 - **ReDoc**: http://127.0.0.1:8000/redoc
 - **Health**: http://127.0.0.1:8000/health
@@ -112,28 +120,26 @@ npm install
 npm run dev
 ```
 
-Frontend will be available at **http://127.0.0.1:5173**
+Frontend at **http://127.0.0.1:5173**
 
 ### Model Setup
 
-The trained model (`phase6_model_bundle.joblib`, 1.8 GB) is **not included** in this repository due to size.
+The trained model (`phase6_model_bundle.joblib`, 1.8 GB) is **not included** due to size.
 
 **Option 1: Download from release** (recommended)
 ```bash
-# Place in models/phase_6/
 mkdir -p models/phase_6
 # Download from GitHub Releases or your storage provider
 ```
 
 **Option 2: Train yourself**
 ```bash
-# Run notebooks 00-06 sequentially
 jupyter notebook notebooks/06_multicontaminant_prediction.ipynb
 ```
 
 ---
 
-## API Endpoints
+## 📡 API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -166,7 +172,7 @@ curl "http://127.0.0.1:8000/api/v1/alerts/trace?state=Gujarat"
 
 ---
 
-## Notebook Pipeline
+## 📓 Notebook Pipeline
 
 | Notebook | Phase | Purpose |
 |----------|-------|---------|
@@ -186,38 +192,18 @@ Run sequentially: `jupyter notebook notebooks/00_environment_check.ipynb`
 
 ---
 
-## Frontend Features
+## 🌐 Frontend Features
 
-### Overview Dashboard
-- Hero panel with key metrics
-- Priority tier distribution (Recharts bar chart)
-- Top states by location count
-- Highest-ranked locations table
-
-### Site Explorer
-- Full-text search (state, district, site ID)
-- Filter by state, priority tier
-- Paginated results (12/page)
-- Click → detailed side panel
-
-### Trace Alerts
-- Separate register for trace elements
-- 8 trace parameters monitored
-- Filterable, sortable table
-
-### Groundwater Map
-- Leaflet + OpenStreetMap tiles
-- Marker clustering (24K+ points)
-- Andhra Pradesh coordinate corrections (241 sites)
-- Interactive popups with member sites
-- State + tier filters
-- Auto-fit bounds on filter change
+| Feature | Description |
+|---------|-------------|
+| **Overview Dashboard** | Hero metrics, tier distribution (Recharts), top states, ranked locations |
+| **Site Explorer** | Full-text search, state/tier filters, paginated results (12/page), detail panel |
+| **Trace Alerts** | Separate register for 8 trace elements, filterable & sortable table |
+| **Groundwater Map** | Leaflet + OSM, marker clustering (24K+), AP corrections (241 sites), interactive popups |
 
 ---
 
-## Priority Scoring Methodology
-
-The **Testing Priority Score** combines four evidence dimensions:
+## 🎯 Priority Scoring Methodology
 
 ```
 Testing_priority_score = 
@@ -236,13 +222,13 @@ Each location receives **8 parameter-specific recommendations** (Baseline / Targ
 
 ---
 
-## Andhra Pradesh Map Correction
+## 🗺️ Andhra Pradesh Map Correction
 
 241 sites in Andhra Pradesh had coordinate metadata placing them outside state boundaries. Phase 10 applied manual overrides using `reports/map_quality/phase10_andhra_pradesh_map_overrides.csv` — **only for map display**. Original CGWB metadata is preserved in all API responses and analysis.
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 Key settings in `app/backend/config.py`:
 
@@ -263,7 +249,7 @@ Frontend: Set `VITE_API_BASE_URL` in `.env` for production (default: `http://127
 
 ---
 
-## Deployment
+## 🐳 Deployment
 
 ### Docker (Backend)
 ```dockerfile
@@ -293,68 +279,15 @@ COPY app/frontend/nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 ```
 
-### Environment Variables
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `VITE_API_BASE_URL` | Backend API URL | `http://127.0.0.1:8000` |
-| `PYTHONPATH` | For backend imports | Project root |
-
 ---
 
-## Project Structure Details
-
-### Backend Services
-
-**`data_service.py`** — Core data loader with:
-- `@lru_cache(maxsize=1)` for single-load at startup
-- Column selection + required column validation
-- Cross-register integrity checks (IDs, counts, 8 params/site)
-- `clean_record()` / `records_from_frame()` for JSON serialization
-
-**`main.py`** — FastAPI routes with:
-- Lifespan manager for data loading
-- CORS for frontend origin
-- Pagination, filtering, search on all list endpoints
-- Proper HTTP status codes (404, 503)
-
-### Frontend Components
-
-| Component | File | Responsibility |
-|-----------|------|----------------|
-| `App` | App.jsx | Routing, state, data fetching, layout |
-| `Overview` | App.jsx | Dashboard, stats, charts, top sites |
-| `SiteExplorer` | App.jsx | Search, filter, paginated table |
-| `SiteDetail` | App.jsx | Side-panel site profile |
-| `TraceAlerts` | App.jsx | Trace register table |
-| `MapExplorer` | MapExplorer.jsx | Leaflet map, clustering, popups |
-| `MapMarkers` | MapExplorer.jsx | Cluster + coordinate-group markers |
-| `SiteProfile` | MapExplorer.jsx | Map-side site detail panel |
-
----
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/my-feature`
-3. Run notebooks sequentially for data changes
-4. Run `pytest` for backend tests
-5. Run `npm run build` for frontend verification
-6. Submit a Pull Request
-
-### Code Style
-- Python: `black`, `ruff`, type hints
-- JavaScript: `eslint`, `prettier`
-- Commits: Conventional Commits
-
----
-
-## License
+## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - **Central Ground Water Board (CGWB)** — Open data provider
 - **OpenStreetMap contributors** — Map tiles
@@ -362,8 +295,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## Contact
-
-**Abhiram Tekulapalli** — [@abhiram-tekulapalli](https://github.com/abhiram-tekulapalli)
-
-Project: [https://github.com/abhiram-tekulapalli/BoreWell-Sentinel-India](https://github.com/abhiram-tekulapalli/BoreWell-Sentinel-India)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhiram-tekulapalli/project_readme_assets/main/footer.svg" alt="Footer" width="100%" />
+</p>
